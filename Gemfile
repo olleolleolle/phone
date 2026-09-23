@@ -9,3 +9,5 @@ end
 group :test do
   gem "rake"
 end
+
+gem "ostruct" if RUBY_VERSION > "4"
