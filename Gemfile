@@ -3,7 +3,7 @@ source "https://rubygems.org"
 gemspec
 
 group :doc do
-  gem "redcarpet"
+  gem "redcarpet", platforms: :ruby
 end
 
 group :test do
